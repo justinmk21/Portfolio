@@ -1,0 +1,65 @@
+.box-l {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 32px;
+    overflow: hidden;
+}
+
+.box {
+    background-color: #fea8a8;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    background-color: aquamarine;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.work-steps-display {
+    display: flex;
+    justify-content: center;
+    max-width: 1920px;
+    min-height: 700px;
+}
+
+.work-steps-stack {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    max-width: 1320px;
+}
+
+.four-cards {
+    display: flex;
+    max-width: 660px;
+    width: 100%;
+    min-height: 600px;
+}
+
+.work-steps-cards {
+    margin-right: 24px;
+}
+
+@media(max-width: 1319px) {
+    .work-steps-stack {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 660px) {
+    .four-cards {
+        flex-direction: column;
+        max-width: 330px;
+    }
+
+    .work-steps-cards {
+        margin-right: 0;
+    }
+}

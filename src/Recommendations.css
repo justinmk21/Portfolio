@@ -1,0 +1,104 @@
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+#recommendations {
+    scroll-margin-top: 110px;
+}
+
+.all-recommendations {
+    display: flex;
+    align-items: center;
+    margin-left: 1in;
+    flex-direction: row;
+    flex-flow: wrap;
+    padding: 20px;
+}
+
+.recommendation {
+    font-style: italic;
+    text-align: left;
+    width: 21.875rem;
+    padding: 1rem;
+    background-color: #fea8a8;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+    border:1px solid gray;
+    font-size: 18px;
+    height:150px;
+    overflow: hidden;
+}
+
+.recommendation span {
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input, textarea {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+fieldset {
+    display: flexbox;
+    align-content: center;
+    justify-content: center;
+    padding: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: thin solid white;
+    width: 50%;
+}
+
+button {
+    background-color: #fff;
+    border: 1px solid #ffcccc;
+    color: #ffcccc;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #ffcccc;
+    border: 1px solid #ffcccc;
+    color: #fff;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fieldset {
+    border-radius: 10px;
+    border: 1px solid pink;
+}
+
+.introduction {
+  text-align: justify;
+  font-size: 30px;
+  text-align: center;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  animation-duration: 5s;
+  position: relative;
+  color: pink;
+}
+
+@media (max-width: 700px) {
+    .fieldset {
+        border: 0px;
+    }
+}

@@ -1,0 +1,92 @@
+.heading {
+    font-size: x-large;
+}
+
+.your-project {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 52px 32px;
+}
+
+.contact-field {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-field input:active{
+    color: pink;
+}
+
+.input-field {
+    border-radius: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.input-field:focus{
+    color: pink;
+    border-color: pink;
+    outline: none;
+}
+.input-field:focus::placeholder{
+    opacity: 1;
+    color: pink;
+}
+
+.contact-card {
+    margin-right: 20px;
+    padding: 12px;
+    width: 14%;
+    border-radius: 4px;
+    background-color: pink;
+}
+.card-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    max-width: 1320px;
+    width: 100%;
+    min-height: 720px;
+    border: 1px solid pink;
+    border-radius: 10px;
+}
+
+.card-inputs {
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+@media (max-width: 1319px) {
+    .contact-me {
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+        border: 1px solid pink;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .contact-me {
+        margin: 0 12px;
+        border: 0px;
+    }
+}

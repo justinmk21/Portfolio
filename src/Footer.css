@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #fea8a8;
+}
+
+@media(max-width: 480px) {
+    footer {
+        padding: 32px;
+        flex-direction: column;
+    }
+}

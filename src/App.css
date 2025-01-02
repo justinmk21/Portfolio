@@ -1,0 +1,14 @@
+h1 {
+    font-size: 4rem;
+    color: pink;
+}
+
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+@media(max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,40 @@
+.message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    min-height: 920px;
+    scroll-margin-top: 100px;
+}
+
+.message {
+    max-width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: hsl(0, 0%, 30%);
+}
+
+@media(max-width: 1450px) {
+    .message-container {
+        min-height: 600px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .message-container {
+        min-height: 500px;
+    }
+}
+
+@media(max-width: 480px) {
+    .message-container {
+        min-height: 600px;
+    }
+
+    .message {
+        max-width: 95%;
+    }
+}

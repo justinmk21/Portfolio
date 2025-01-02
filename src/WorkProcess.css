@@ -1,0 +1,44 @@
+.heading {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: black;
+}
+
+.box {
+    padding: 32px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.what-i-do-container {
+    display: flex;
+    justify-content: center;
+    min-height: 680px;
+}
+
+.what-i-do {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1320px;
+    width: 100%;
+}
+
+.first-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px;
+}
+
+@media(max-width: 1319px) {
+    .what-i-do {
+        max-width: 660px;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 650px) {
+    .work-process-cards {
+        padding: 0 12px;
+    }
+}
