@@ -7,7 +7,7 @@ h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-@media(max-width: 600px) {
+@media(max-width: 1320px) {
     h1 {
         font-size: 2rem;
     }

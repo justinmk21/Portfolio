@@ -8,7 +8,10 @@
 }
 
 .message {
-    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    max-width: 1320px;
+    width: 100%;
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
@@ -17,15 +20,62 @@
     color: hsl(0, 0%, 30%);
 }
 
+.intro-card {
+    max-width: 646px;
+    width: 100%;
+    min-height: 300px;
+}
+
+.intro-image {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 536px;
+    max-width: 646px;
+    height: 100%;
+    width: 100%;
+}
+
 @media(max-width: 1450px) {
     .message-container {
         min-height: 600px;
+    }
+
+    .intro-card {
+        padding: 6px;
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .intro-image {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 1320px) {
+    .intro-contents {
+        flex-direction:column-reverse;
+    }
+
+    .intro-image {
+        max-width: 536px;
+    }
+
+    .intro-contents {
+        padding: 6px;
+        border-radius: 25px;
     }
 }
 
 @media(max-width: 1024px) {
     .message-container {
         min-height: 500px;
+    }
+}
+
+@media(max-width: 710px) {
+    .intro-contents {
+        border: 1px solid pink;
     }
 }
 

@@ -5,27 +5,28 @@
   }
 
 #recommendations {
+    display: grid;
+    justify-items: center;
+    margin-bottom: 60px;
     scroll-margin-top: 110px;
 }
 
 .all-recommendations {
     display: flex;
     align-items: center;
-    margin-left: 1in;
     flex-direction: row;
     flex-flow: wrap;
-    padding: 20px;
 }
 
 .recommendation {
     font-style: italic;
     text-align: left;
-    width: 21.875rem;
+    max-width: 21.875rem;
+    width: 100%;
     padding: 1rem;
     background-color: #fea8a8;
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--primary-shadow);
-    padding: 20px;
     margin: 10px;
     border:1px solid gray;
     font-size: 18px;
@@ -83,6 +84,7 @@ button:hover {
 .fieldset {
     border-radius: 10px;
     border: 1px solid pink;
+    margin-bottom: 60px;
 }
 
 .introduction {

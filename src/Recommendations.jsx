@@ -23,11 +23,16 @@ function Recommendation(){
         <>
         <section id='recommendations'>
             <h1 style={{ textAlign: 'center'}}>Recommendations</h1>
-            <div className='all-recommendations' id="all-recommendations">
-                <div className='recommendation'>
+            <div
+                className='all-recommendations'
+                id="all-recommendations"
+                >
+                <div
+                    className='recommendation'
+                    >
                     <span>&#8220;</span>
                         I am happy with the service I got from kgomotso, product
-                         is beautiful. I am happy with it.
+                        is beautiful. I am happy with it.
                     <span>&#8221;</span>
                 </div>
 

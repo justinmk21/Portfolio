@@ -1,6 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import './AboutMe.css';
-import { Heading, VStack, Text, Image } from "@chakra-ui/react";
+import { Heading, VStack, Text, Image, Flex } from "@chakra-ui/react";
 import { AvatarIcon } from "@chakra-ui/react/avatar";
 import Kgomotso from './assets/Justin.jpg';
 
@@ -8,37 +9,48 @@ import Kgomotso from './assets/Justin.jpg';
 function AboutMe() {
 
     return (
-        <div
+        <section
             className="message-container"
             >
-            <div
+            <article
                 className='message'
                 >
-                <VStack
+                <Flex
+                    className='intro-contents'
+                    justifyContent={'space-between'}
                     maxWidth="1280px"
+                    width={'100%'}
                     minHeight="60vh"
                     alignItems={'center'}
                     >
-                    <Image
-                        src={Kgomotso}
-                        border={'4px solid #ffcccc'}
-                        boxSize="150px"
-                        borderRadius="full"
-                        fit="cover"
-                        alt="Kgomotso Mkhawane"
-                    />
-                    <p>Kgomotso Mkhawane</p>
-                    <h1>A Full Stack Developer</h1>
-                    <p>
-                        I am a Full Stack Software Developer Specialised in
-                        React.js, Python Developer(Django), based in
-                        Johannesburg, South Africa. I strive to develop
-                        immersive and beautiful web applications
-                        through carefully crafted code and user-cetric design.
-                    </p>
-                </VStack>
-            </div>
-        </div>
+                    <div
+                        className='intro-card'
+                        >
+                        <h1>
+                            Hello, I'm Kgomotso Mkhawane
+                        </h1>
+                        <p>
+                            I am a Full Stack Software Developer Specialised in
+                            React.js, Python Developer(Django), based in
+                            Johannesburg, South Africa. I strive to develop
+                            immersive and beautiful web applications
+                            through carefully crafted code and user-cetric design.
+                        </p>
+                    </div>
+                    <div
+                        className='intro-image'
+                        >
+                        <Image
+                            src={Kgomotso}
+                            boxSize="400px"
+                            borderRadius={'25px'}
+                            fit="cover"
+                            alt="Kgomotso Mkhawane"
+                        />
+                    </div>
+                </Flex>
+            </article>
+        </section>
     )
 }
 

@@ -1,10 +1,11 @@
 /* eslint-disable no-unused-vars */
 import './Projects.css';
-import { VStack, Heading, Image, Box, Button, HStack, Alert } from "@chakra-ui/react";
+import { VStack, Heading, Image, Box, Button, HStack, Alert, DialogRoot, DialogBody, DialogTitle, DialogContent, DialogTrigger } from "@chakra-ui/react";
 import image1 from './images/photo1.jpg';
 import image2 from './images/photo2.jpg';
 import image3 from './images/photo3.jpg';
 import image4 from './images/photo4.jpg';
+import image5 from './images/EstateHouse.jpg';
 import { CardBody, CardDescription, CardFooter, CardHeader, CardRoot, CardTitle } from '@chakra-ui/react/card'
 import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -17,15 +18,14 @@ import ButtonIcon from './CommonIconButton';
 import Cards from './Card';
 import { useState } from 'react';
 
-
-
 const projects = [
     {
-      title: "React Space",
+      title: "Real Estate App",
       description:
-        "Handy tool belt to create amazing AR components in a React app, with \
-        redux integration via middleware️",
-      getImageSrc: image1,
+        "A modern and intuitive web application designed for seamless property \
+        management and exploration.",
+      getImageSrc: image5,
+      link: 'https://justinmk21.github.io/Real-Estate-App-Nola/'
     },
     {
       title: "React Infinite Scroll",
@@ -53,12 +53,10 @@ const projects = [
 function Projects() {
 
     const [add, setAdd] = useState(2);
-    const navigate = useNavigate();
 
-    const handleButtonClick = () => {
-        navigate('projects');
+    const handleButtonClick = (link) => {
+        window.open(link, "_blank");
     };
-
 
     return (
         <section
@@ -81,7 +79,7 @@ function Projects() {
                       ImageSrc={project.getImageSrc}
                       title={project.title}
                       description={project.description}
-                      handleClick={handleButtonClick}
+                      handleClick={() => {handleButtonClick(project.link)}}
                     />
                   ))}
                 </Box>
