@@ -24,7 +24,7 @@
     max-width: 21.875rem;
     width: 100%;
     padding: 1rem;
-    background-color: #fea8a8;
+    background-color: #EDD8FF;
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--primary-shadow);
     margin: 10px;
@@ -32,6 +32,7 @@
     font-size: 18px;
     height:150px;
     overflow: hidden;
+    margin-top: 50px
 }
 
 .recommendation span {
@@ -83,7 +84,7 @@ button:hover {
 
 .fieldset {
     border-radius: 10px;
-    border: 1px solid pink;
+    border: 1px solid #7B61FF;
     margin-bottom: 60px;
 }
 
@@ -96,7 +97,7 @@ button:hover {
   margin-bottom: 20px;
   animation-duration: 5s;
   position: relative;
-  color: pink;
+  color:#132238;
 }
 
 @media (max-width: 700px) {

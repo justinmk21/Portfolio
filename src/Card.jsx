@@ -17,9 +17,9 @@ function Cards(props) {
                 >
                 <CardBody>
                     <Image borderRadius={'10px'} src={props.ImageSrc} />
-                    <CardHeader color={'#fea8a8'}>Web Application</CardHeader>
+                    <CardHeader color={'#87909D'}>Web Application</CardHeader>
                     <CardTitle>{props.title}</CardTitle>
-                    <CardDescription>{props.description}</CardDescription>
+                    <CardDescription color={'#556070'}>{props.description}</CardDescription>
                 </CardBody>
             </CardRoot>
     )

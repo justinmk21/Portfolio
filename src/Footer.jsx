@@ -1,4 +1,4 @@
-import { ColorModeButton } from "./components/ui/color-mode";
+//import { ColorModeButton } from "./components/ui/color-mode";
 import './Footer.css';
 
 function Footer() {
@@ -8,9 +8,6 @@ function Footer() {
                     <p>
                         Kgomotso Mkhawane • © {new Date().getFullYear()}
                     </p>
-                </div>
-                <div>
-                    <ColorModeButton />
                 </div>
             </footer>
     )

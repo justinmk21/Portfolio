@@ -16,7 +16,11 @@ function WorkSteps() {
                     minHeight={'600px'}
                     className="box-l"
                     >
-                    <h1>Work Process</h1>
+                    <h1
+                        style={{ marginBottom: '20px' }}
+                        >
+                        Work Process
+                    </h1>
                     <Text>
                         My development process begins with creating a user-centric
                         design in Figma, ensuring the interface is both intuitive
@@ -51,18 +55,23 @@ function WorkSteps() {
                             className="box"
                             color={'black'}
                             >
-                            <Box className="icon"><FaBookOpen/></Box>
-                            <Text size={'sm'} fontWeight={'bold'}>1. Research</Text>
-                            <p>
-                                I begin by understanding user needs and project
-                                goals through research and analysis, ensuring
-                                the design solves real problems.
-                            </p>
+                            <Flex
+                                flexDirection={'column'}
+                                justifyItems={'center'}
+                                >
+                                <Box className="icon"><FaBookOpen/></Box>
+                                <Text size={'sm'} fontWeight={'bold'}>1. Research</Text>
+                                <p>
+                                    I begin by understanding user needs and project
+                                    goals through research and analysis, ensuring
+                                    the design solves real problems.
+                                </p>
+                            </Flex>
                         </Box>
                         <Box
                             maxWidth={'330px'}
                             minHeight={'276px'}
-                            backgroundColor={'#ccf2ff'}
+                            backgroundColor={'#fff'}
                             color={'black'}
                             className="box"
                             >
@@ -83,7 +92,7 @@ function WorkSteps() {
                         <Box
                             maxWidth={'330px'}
                             minHeight={'276px'}
-                            backgroundColor={'aqua'}
+                            backgroundColor={'#fff'}
                             color={'black'}
                             className="box">
                             <Box className="icon"><FaChartLine/></Box>
@@ -97,7 +106,7 @@ function WorkSteps() {
                         <Box
                             maxWidth={'330px'}
                             minHeight={'276px'}
-                            backgroundColor={'aqua'}
+                            backgroundColor={'#fff'}
                             color={'black'}
                             className="box"
                             >

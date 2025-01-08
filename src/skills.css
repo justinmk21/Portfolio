@@ -1,6 +1,7 @@
 .skills {
     display: flex;
     justify-content: center;
+    background-color: #fff;
 }
 
 .skills-container {
@@ -25,7 +26,7 @@
     margin-right: 20px;
     padding: 12px;
     border-radius: 4px;
-    background-color: pink;
+    background-color: #C98BFF;
 }
 
 .heading-2 {

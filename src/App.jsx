@@ -8,7 +8,7 @@ import WorkSteps from './WorkSteps';
 import ContactMe from './ContactMe';
 import HeaderSection from './HeaderSection';
 import SkillSection from './SkillSection';
-import './App.css'
+import './css/App.css'
 
 function App() {
 

@@ -9,7 +9,7 @@ function SkillSection() {
                 minHeight: '720px',
                 marginTop: '80px',
                 marginBottom: '80px',
-                backgroundColor: '#F5F5F5',
+                backgroundColor: '#FFF',
             }}
         >
             <h1 style={{

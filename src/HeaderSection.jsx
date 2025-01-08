@@ -7,7 +7,7 @@ function HeaderSection() {
         style={{
             display: 'flex',
             justifyContent: 'center',
-            backgroundColor: '#fea8a8',
+            backgroundColor: '#fff',
             maxHeight: '80px'
         }}
         >

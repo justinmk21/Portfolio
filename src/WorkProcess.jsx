@@ -21,10 +21,12 @@ function WorkProcess() {
                     maxWidth={'648px'}
                     direction={'column'}
                     >
-                    <div>
+                    <div
+                        style={{ marginBottom: '20px' }}
+                        >
                         <h1>What I Do</h1>
                     </div>
-                    <Text opacity={'0.8'}>
+                    <Text color={'#87909D'}>
                         As a full-stack developer with a passion for both design
                         and functionality, I specialize in creating intuitive,
                         user-centered web applications. I bridge the gap between
@@ -34,7 +36,7 @@ function WorkProcess() {
                     <br></br>
                     <hr></hr>
                     <br></br>
-                    <Text opacity={'0.8'}>
+                    <Text color={'#87909D'}>
                         I am experienced in using frameworks such as React for
                         frontend development and Django, Flask, or Node.js for
                         backend architecture. From developing RESTful APIs and
@@ -58,7 +60,7 @@ function WorkProcess() {
                         <Box
                             minHeight={'100px'}
                             maxWidth={'648px'}
-                            className="box"
+                            className="boxes"
                             >
                             <Text
                                 className="heading"
@@ -66,7 +68,7 @@ function WorkProcess() {
                                 User Experience And User interface
                             </Text>
                             <Text
-                                color={'black'}
+                                color={'#87909D'}
                                 >
                                 I design user interfaces and experiences that are
                                 functional and visually engaging, ensuring intuitive
@@ -76,10 +78,10 @@ function WorkProcess() {
                         <Box
                             minHeight={'100px'}
                             maxWidth={'648px'}
-                            className="box"
+                            className="boxes"
                             >
                             <Text className="heading">Frontend Development</Text>
-                            <Text color={'black'}>
+                            <Text color={'#87909D'}>
                                 I build responsive, dynamic web applications
                                 using modern frontend technologies like React,
                                 Chakra ui and Bootstrap.
@@ -88,10 +90,10 @@ function WorkProcess() {
                         <Box
                             minHeight={'100px'}
                             maxWidth={'648px'}
-                            className="box"
+                            className="boxes"
                             >
                             <Text className="heading">Backend Development</Text>
-                            <Text color={'black'}>
+                            <Text color={'#87909D'}>
                                 My backend development expertise involves
                                 designing and maintaining robust server-side
                                 logic, ensuring the seamless integration of

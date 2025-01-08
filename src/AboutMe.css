@@ -5,6 +5,22 @@
     margin: auto;
     min-height: 920px;
     scroll-margin-top: 100px;
+    position: relative;
+}
+
+.message-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background:
+    radial-gradient(circle at top right, #DA4DF1 1%, transparent 35%),
+    radial-gradient(circle at bottom left , #fc8b28 0.1%, transparent 30%),
+    radial-gradient(circle at bottom right , #C4F5E9 0.1%, transparent 40%);
+    z-index: -1;
+    filter: blur(1px);
 }
 
 .message {
@@ -13,17 +29,18 @@
     max-width: 1320px;
     width: 100%;
     border-radius: 10px;
-    padding: 20px;
+    padding: 32px;
     margin: 20px;
     font-size: large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: hsl(0, 0%, 30%);
+    background-color: #fff;
 }
 
 .intro-card {
     max-width: 646px;
     width: 100%;
     min-height: 300px;
+    color: #87909D;
 }
 
 .intro-image {
@@ -36,13 +53,16 @@
     width: 100%;
 }
 
+.alt-name {
+    display: none;
+}
+
 @media(max-width: 1450px) {
     .message-container {
         min-height: 600px;
     }
 
     .intro-card {
-        padding: 6px;
         max-width: 400px;
         width: 100%;
     }
@@ -55,36 +75,38 @@
 @media(max-width: 1320px) {
     .intro-contents {
         flex-direction:column-reverse;
+        border-radius: 25px;
     }
 
     .intro-image {
         max-width: 536px;
     }
 
-    .intro-contents {
-        padding: 6px;
-        border-radius: 25px;
+    .name {
+        display: none;
+    }
+
+    .message {
+        padding: 12px;
+        max-width: 710px;
+    }
+
+    .alt-name {
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        margin: 24px 0;
+    }
+}
+
+@media(max-width: 1280px) {
+    .message-container {
+        min-height: 750px;
     }
 }
 
 @media(max-width: 1024px) {
     .message-container {
         min-height: 500px;
-    }
-}
-
-@media(max-width: 710px) {
-    .intro-contents {
-        border: 1px solid pink;
-    }
-}
-
-@media(max-width: 480px) {
-    .message-container {
-        min-height: 600px;
-    }
-
-    .message {
-        max-width: 95%;
     }
 }

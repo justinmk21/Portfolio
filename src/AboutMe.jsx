@@ -26,10 +26,19 @@ function AboutMe() {
                     <div
                         className='intro-card'
                         >
-                        <h1>
+                        <h1
+                            className='name'
+                            >
                             Hello, I'm Kgomotso Mkhawane
                         </h1>
-                        <p>
+                        <h5
+                            className='alt-name'
+                            >
+                            Kgomotso Mkhawane
+                        </h5>
+                        <p
+                            style={{ color:'#87909D' }}
+                            >
                             I am a Full Stack Software Developer Specialised in
                             React.js, Python Developer(Django), based in
                             Johannesburg, South Africa. I strive to develop
@@ -45,7 +54,7 @@ function AboutMe() {
                             boxSize="400px"
                             borderRadius={'25px'}
                             fit="cover"
-                            alt="Kgomotso Mkhawane"
+                            alt="Kgomotso Mkhawane's Image"
                         />
                     </div>
                 </Flex>
