@@ -8,7 +8,8 @@ import {
     faMedium,
     faStackOverflow,
   } from "@fortawesome/free-brands-svg-icons";
-  import { HStack } from "@chakra-ui/react";
+  import { Flex, HStack } from "@chakra-ui/react";
+  import { ColorModeButton } from "./components/ui/color-mode";
 
   const socials = [
     {
@@ -42,15 +43,20 @@ function Header() {
                   >
                     <HStack>
                     <a href={socials[0].url} style={{padding:'0px 10px'}} >
-                        <FontAwesomeIcon icon={socials[0].icon} size="2x" /></a>
+                        <FontAwesomeIcon icon={socials[0].icon} size="2x" />
+                    </a>
                     <a href={socials[1].url} style={{padding:'0px 10px'}} >
-                        <FontAwesomeIcon icon={socials[1].icon} size="2x" /></a>
+                        <FontAwesomeIcon icon={socials[1].icon} size="2x" />
+                    </a>
                     <a href={socials[2].url} style={{padding:'0px 10px'}} >
-                        <FontAwesomeIcon icon={socials[2].icon} size="2x" /></a>
+                        <FontAwesomeIcon icon={socials[2].icon} size="2x" />
+                    </a>
                     <a href={socials[3].url} style={{padding:'0px 10px'}} >
-                        <FontAwesomeIcon icon={socials[3].icon} size="2x" /></a>
+                        <FontAwesomeIcon icon={socials[3].icon} size="2x" />
+                    </a>
                     <a href={socials[4].url} style={{padding:'0px 10px'}} >
-                        <FontAwesomeIcon icon={socials[4].icon} size="2x" /></a>
+                        <FontAwesomeIcon icon={socials[4].icon} size="2x" />
+                    </a>
                     </HStack>
                 </nav>
                 <div
@@ -61,11 +67,18 @@ function Header() {
                 <nav
                   className="nav-bar"
                   >
-                    <div >
+                    <Flex
+                      alignItems={'center'}
+
+                      >
+                      <ColorModeButton/>
+                      <div>
                         <a className="topmenu" href="#skills">Skills</a>
                         <a className="topmenu" href="#projects">Projects</a>
                         <a className="topmenu" href="#recommendations">Recommendations</a>
-                    </div>
+                      </div>
+                    </Flex>
+
                 </nav>
 
         </header>

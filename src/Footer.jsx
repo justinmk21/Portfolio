@@ -1,4 +1,3 @@
-//import { ColorModeButton } from "./components/ui/color-mode";
 import { Flex } from '@chakra-ui/react';
 import './Footer.css';
 
