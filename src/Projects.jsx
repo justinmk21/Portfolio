@@ -25,7 +25,7 @@ const projects = [
         "A modern and intuitive web application designed for seamless property \
         management and exploration.",
       getImageSrc: image5,
-      link: 'https://justinmk21.github.io/Real-Estate-App-Nola/'
+      link: 'https://justinmk21.github.io/NolaEstates/'
     },
     {
       title: "React Infinite Scroll",
