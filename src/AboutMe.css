@@ -18,7 +18,7 @@
     background:
     radial-gradient(circle at top right, #DA4DF1 1%, transparent 35%),
     radial-gradient(circle at bottom left , #fc8b28 0.1%, transparent 30%),
-    radial-gradient(circle at bottom right , #C4F5E9 0.1%, transparent 40%);
+    radial-gradient(circle at bottom right , #C4F5E9 0.1%, transparent 20%);
     z-index: -1;
     filter: blur(1px);
 }

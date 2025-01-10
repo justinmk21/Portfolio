@@ -10,12 +10,12 @@ h1 {
 }
 
 button {
-    color: #7B61FF;
-    border: 1px solid #7B61FF;
+    color: #A53DFF;
+    border: 1px solid #A53DFF;
 }
 
 button:hover {
-    background-color: #7B61FF;
+    background-color: #8431CC;
     color: white;
 }
 
