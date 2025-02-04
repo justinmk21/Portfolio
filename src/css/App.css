@@ -12,6 +12,8 @@ h1 {
 button {
     color: #A53DFF;
     border: 1px solid #A53DFF;
+    max-width: 120px;
+    margin: 30px 0;
 }
 
 button:hover {

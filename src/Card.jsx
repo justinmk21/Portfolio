@@ -16,7 +16,10 @@ function Cards(props) {
                 onClick={props.handleClick}
                 >
                 <CardBody>
-                    <Image borderRadius={'10px'} src={props.ImageSrc} />
+                    <Image borderRadius={'10px'}
+                        boxSize={'fit'}
+                        src={props.ImageSrc}
+                        />
                     <CardHeader color={'#87909D'}>Web Application</CardHeader>
                     <CardTitle>{props.title}</CardTitle>
                     <CardDescription color={'#556070'}>{props.description}</CardDescription>

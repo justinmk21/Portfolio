@@ -6,6 +6,7 @@ import image2 from './images/photo2.jpg';
 import image3 from './images/photo3.jpg';
 import image4 from './images/photo4.jpg';
 import image5 from './images/EstateHouse.jpg';
+import image6 from './images/promo2.jpg';
 import { CardBody, CardDescription, CardFooter, CardHeader, CardRoot, CardTitle } from '@chakra-ui/react/card'
 import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,6 +21,13 @@ import { useState } from 'react';
 
 const projects = [
     {
+      title: "Cosmetic Store",
+      description:
+        "An online cosmetic store for easy skincare and makeup shopping.",
+      getImageSrc: image6,
+      link: 'https://justinmk21.github.io/Lenature/',
+    },
+    {
       title: "Real Estate App",
       description:
         "A modern and intuitive web application designed for seamless property \
@@ -30,16 +38,9 @@ const projects = [
     {
       title: "React Infinite Scroll",
       description:
-        "A scrollable bottom sheet with virtualisation support, native animations\
+        "A scrollable bottom sheet with virtualization support, native animations\
          at 60 FPS and fully implemented in JS land 🔥️",
       getImageSrc: image2,
-    },
-    {
-      title: "Photo Gallery",
-      description:
-        "A One-stop shop for photographers to share and monetize their photos, \
-        allowing them to have a second source of income",
-      getImageSrc: image3,
     },
     {
       title: "Event planner",

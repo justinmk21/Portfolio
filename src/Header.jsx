@@ -36,6 +36,10 @@ import {
 
 function Header() {
 
+    const handleOpenLink = (link) => {
+      window.open(link, '_blank');
+    };
+
     return (
         <header className='header'>
                 <nav
@@ -48,9 +52,12 @@ function Header() {
                     <a href={socials[1].url} style={{padding:'0px 10px'}} >
                         <FontAwesomeIcon icon={socials[1].icon} size="2x" />
                     </a>
-                    <a href={socials[2].url} style={{padding:'0px 10px'}} >
-                        <FontAwesomeIcon icon={socials[2].icon} size="2x" />
-                    </a>
+                    <div
+                      onClick={() => handleOpenLink(socials[2].url)}
+                      style={{padding:'0px 10px'}}
+                      >
+                      <FontAwesomeIcon icon={socials[2].icon} size="2x" />
+                    </div>
                     <a href={socials[3].url} style={{padding:'0px 10px'}} >
                         <FontAwesomeIcon icon={socials[3].icon} size="2x" />
                     </a>
@@ -75,7 +82,7 @@ function Header() {
                       <div>
                         <a className="topmenu" href="#skills">Skills</a>
                         <a className="topmenu" href="#projects">Projects</a>
-                        <a className="topmenu" href="#recommendations">Recommendations</a>
+                        {/**<a className="topmenu" href="#recommendations">Recommendations</a> */}
                       </div>
                     </Flex>
 

@@ -1,0 +1,83 @@
+.content-background {
+  background-color: #F3F8FC;
+  display: flex;
+  align-items: center;
+  padding: 300px;
+  border-radius: 10px;
+  min-height: 960px;
+}
+
+.container-p {
+  display: flex;
+  background-color: #172030;
+  border-radius: 15px;
+  min-height: 400px;
+  position: relative;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2)
+}
+
+.image-block {
+  background-color: #9FD3E8;
+  padding: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 55px;
+  border-bottom-left-radius: 55px;
+  overflow: hidden;
+  margin-right: 20px;
+  height: 520px;
+  width: 430px;
+  position: absolute;
+  top: -60px;
+  left: 100px;
+  background-image: url('./assets/Justin.jpg');
+  background-size: cover;
+}
+
+.text-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-content > h1 {
+  color: salmon;
+  font-size: 32px;
+  position: absolute;
+  right: 340px;
+  top: 30px;
+}
+
+.text-content > h2 {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 800;
+  right: 432px;
+  top: 82px;
+}
+
+.text-content > p {
+  position: absolute;
+  font-size: 16px;
+  color: #87909D;
+  max-width: 380px;
+  right: 285px;
+}
+
+.button-btn {
+  position: absolute;
+  background-color: #0E69FF;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px;
+  max-width: 220px;
+  top: 260px;
+  right: 495px;
+}
