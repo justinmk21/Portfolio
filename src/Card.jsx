@@ -3,26 +3,44 @@
 import { CardBody, CardDescription, CardFooter, CardHeader, CardRoot, CardTitle } from '@chakra-ui/react/card'
 import { VStack, Heading, Image, Text, Button, HStack } from "@chakra-ui/react";
 import ButtonIcon from "./CommonIconButton";
+import { FaGithub } from 'react-icons/fa';
 import './Projects.css'
 
 
-function Cards(props) {
+function Cards({ handleClick, ImageSrc, title, description, gitRepoLink }) {
 
     return (
             <CardRoot
                 className='card'
                 margin={'12px'}
                 size={'sm'}
-                onClick={props.handleClick}
+                onClick={handleClick}
                 >
                 <CardBody>
                     <Image borderRadius={'10px'}
                         boxSize={'fit'}
-                        src={props.ImageSrc}
+                        src={ImageSrc}
+                        maxHeight={'380px'}
+                        height={'100%'}
                         />
                     <CardHeader color={'#87909D'}>Web Application</CardHeader>
-                    <CardTitle>{props.title}</CardTitle>
-                    <CardDescription color={'#556070'}>{props.description}</CardDescription>
+                    <CardTitle>{title}</CardTitle>
+                    <CardDescription color={'#556070'}>
+                        {description}
+                    </CardDescription>
+                    <Button
+                        className='repo-link'
+                        onClick={(e) => {
+                            e.stopPropagation();
+                            window.open(gitRepoLink, '_blank');
+
+                        }}
+                        style={{
+                            marginTop: '20px',
+                            border: '1px solid lightgray',
+                        }}>
+                        <FaGithub size="3x"/>
+                    </Button>
                 </CardBody>
             </CardRoot>
     )

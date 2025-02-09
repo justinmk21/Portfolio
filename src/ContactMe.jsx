@@ -137,7 +137,9 @@ function ContactMe() {
                                     />
                             </Field>
 
-                            <Button type="submit">
+                            <Button
+                                style={{ margin: '30px 0' }}
+                                type="submit">
                                 Submit
                             </Button>
                         </Fieldset.Content>

@@ -26,6 +26,7 @@ const projects = [
         "An online cosmetic store for easy skincare and makeup shopping.",
       getImageSrc: image6,
       link: 'https://justinmk21.github.io/Lenature/',
+      repoLink: 'https://justinmk21.github.io/Portfolio/',
     },
     {
       title: "Real Estate App",
@@ -81,6 +82,7 @@ function Projects() {
                       title={project.title}
                       description={project.description}
                       handleClick={() => {handleButtonClick(project.link)}}
+                      gitRepoLink={project['repoLink']}
                     />
                   ))}
                 </Box>

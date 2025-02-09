@@ -16,7 +16,7 @@ function Card() {
                               immersive and beautiful web applications
                               through carefully crafted code and user-cetric design.
           </p>
-          <a href="/jobs" className="button-btn">See my best work!</a>
+          <a href='#projects' className="button-btn">MY BEST WORK!</a>
         </div>
       </div>
     </article>

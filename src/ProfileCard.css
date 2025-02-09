@@ -69,15 +69,25 @@
 
 .button-btn {
   position: absolute;
-  background-color: #0E69FF;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #0E69FF;
+  background-color: #172030;
   color: #FFFFFF;
   padding: 10px 20px;
   text-align: center;
   border-radius: 8px;
   text-decoration: none;
   font-size: 16px;
+  font-weight: 800;
   margin-top: 20px;
   max-width: 220px;
   top: 260px;
   right: 495px;
+}
+
+.button-btn:hover{
+  background-color: #172030;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #0E69FF;
 }

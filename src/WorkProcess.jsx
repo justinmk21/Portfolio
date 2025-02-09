@@ -44,7 +44,11 @@ function WorkProcess() {
                         services and deploying applications, I take a holistic
                         approach to web development.
                     </Text>
-                    <Button onClick={scrollToSection}>Say Hi</Button>
+                    <Button
+                        style={{ margin: '30px 0' }}
+                        onClick={scrollToSection}>
+                        Say Hi
+                    </Button>
                 </Box>
                 <Box
                     className="work-process-cards"
