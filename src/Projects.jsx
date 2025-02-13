@@ -26,7 +26,7 @@ const projects = [
         "An online cosmetic store for easy skincare and makeup shopping.",
       getImageSrc: image6,
       link: 'https://justinmk21.github.io/Lenature/',
-      repoLink: 'https://justinmk21.github.io/Portfolio/',
+      repoLink: 'https://github.com/justinmk21/Lenature.git',
     },
     {
       title: "Real Estate App",
@@ -34,7 +34,8 @@ const projects = [
         "A modern and intuitive web application designed for seamless property \
         management and exploration.",
       getImageSrc: image5,
-      link: 'https://justinmk21.github.io/NolaEstates/'
+      link: 'https://justinmk21.github.io/NolaEstates/',
+      repoLink: 'https://github.com/justinmk21/NolaEstates.git',
     },
     {
       title: "React Infinite Scroll",
