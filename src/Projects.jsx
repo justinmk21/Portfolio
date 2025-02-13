@@ -21,12 +21,13 @@ import { useState } from 'react';
 
 const projects = [
     {
-      title: "Cosmetic Store",
+      title: "Cosmetic Store(Ongoing development)",
       description:
         "An online cosmetic store for easy skincare and makeup shopping.",
       getImageSrc: image6,
       link: 'https://justinmk21.github.io/Lenature/',
       repoLink: 'https://github.com/justinmk21/Lenature.git',
+      repoApi: '',
     },
     {
       title: "Real Estate App",
@@ -36,6 +37,7 @@ const projects = [
       getImageSrc: image5,
       link: 'https://justinmk21.github.io/NolaEstates/',
       repoLink: 'https://github.com/justinmk21/NolaEstates.git',
+      repoApi: 'https://github.com/justinmk21/Real-Estate-API.git',
     },
     {
       title: "React Infinite Scroll",
@@ -84,6 +86,7 @@ function Projects() {
                       description={project.description}
                       handleClick={() => {handleButtonClick(project.link)}}
                       gitRepoLink={project['repoLink']}
+                      repoApi={project['repoApi']}
                     />
                   ))}
                 </Box>
