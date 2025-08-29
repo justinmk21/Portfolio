@@ -52,7 +52,7 @@ function AboutMe() {
                         <Image
                             src={Kgomotso}
                             boxSize="400px"
-                            borderRadius={'25px'}
+                            borderRadius={'full'}
                             fit="cover"
                             alt="Kgomotso Mkhawane's Image"
                         />

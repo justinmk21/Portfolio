@@ -1,0 +1,17 @@
+.full-h {
+    height: calc(100vh - 80px);
+}
+
+.border-line {
+    border: 1px solid #B764FF;
+}
+
+@media (max-width: 767px) {
+    .border-line {
+        border: none;
+    }
+
+    .full-h {
+        height: calc(100vh - 200px);
+    }
+}

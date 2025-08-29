@@ -10,6 +10,7 @@ import HeaderSection from './HeaderSection';
 import SkillSection from './SkillSection';
 import './css/App.css'
 import ProfileCard from './ProfileCard';
+import LandingPage from './LandingPage';
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
   return (
     <>
     <HeaderSection/>
-    <ProfileCard />
+    <LandingPage />
     <WorkProcess/>
     <Projects />
     <SkillSection/>

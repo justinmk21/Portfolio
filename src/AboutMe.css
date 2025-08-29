@@ -43,7 +43,7 @@
     color: #87909D;
 }
 
-.intro-image {
+.intro-image {border: 3px solid #87909D;
     display: flex;
     align-items: center;
     justify-content: flex-end;

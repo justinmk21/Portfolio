@@ -70,3 +70,14 @@ html {
         display: none;
     }
 }
+
+@media (max-width: 767px) {
+    .nav-section {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
