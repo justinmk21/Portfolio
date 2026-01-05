@@ -41,7 +41,7 @@ function Cards({ handleClick, ImageSrc, title, description, gitRepoLink, repoApi
                                 marginTop: '20px',
                                 border: '1px solid lightgray',
                             }}>
-                            <Flex><FaGithub size="3x"/>(src)</Flex>
+                            <Flex alignItems={'center'}><FaGithub size="3x"/>(src)</Flex>
                         </Button>
                         <Button
                             className='repo-link'
@@ -54,7 +54,7 @@ function Cards({ handleClick, ImageSrc, title, description, gitRepoLink, repoApi
                                 marginTop: '20px',
                                 border: '1px solid lightgray',
                             }}>
-                            <Flex><FaGithub size="3x"/>(api)</Flex>
+                            <Flex alignItems={'center'}><FaGithub size="3x"/>(api)</Flex>
                         </Button>
                     </CardFooter>
                 </CardBody>

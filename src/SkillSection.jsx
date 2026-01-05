@@ -17,7 +17,7 @@ function SkillSection() {
                 margin: '32px 0'
             }}
                 >
-                Skills
+                Technical Expertise
             </h1>
             <Skills/>
         </section>

@@ -4,6 +4,9 @@ import './Skills.css';
 import { FaJsSquare, FaLinux, FaDatabase, FaNode, FaNodeJs,
     FaPen, FaGithub, FaGit, FaPython, FaBootstrap,
     FaHtml5, FaCss3, FaReact,
+    FaBrain,
+    FaRobot,
+    FaCloud,
  } from 'react-icons/fa';
 import { Box, Card, Heading,Stack } from "@chakra-ui/react";
 
@@ -58,9 +61,19 @@ function Skills() {
             description: "Version Control, Pull Requests, GitHub CLI, GitHub Pages"
         },
         {
-            title: "UX/UI Design",
-            icon: <FaPen size={'40px'}/>,
-            description: "WireFraming, Interactive Design, Figma, Adoce XD"
+            title: "Deployment",
+            icon: <FaCloud size={'40px'}/>,
+            description: "Docker, Github Pages, Vercel, Render, CI/CD Basics"
+        },
+        {
+            title: "Machine Learning",
+            icon: <FaBrain size={'40px'}/>,
+            description: "Model Integration, Data Processing, Scrit-learn, Pandas, Numpy"
+        },
+        {
+            title: "LLM Integration",
+            icon: <FaRobot size={'40px'}/>,
+            description: "OpenAI, Groq, Google AI Studio, Prompt Engineering, API Orchestration"
         }
     ]
 

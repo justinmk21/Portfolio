@@ -7,6 +7,10 @@ import image3 from './images/photo3.jpg';
 import image4 from './images/photo4.jpg';
 import image5 from './images/EstateHouse.jpg';
 import image6 from './images/promo2.jpg';
+import computer from './images/computer.jpg';
+import tech from './images/tech.jpg';
+import laptop from './images/Laptop.jpg';
+import car from './images/car.jpg';
 import { CardBody, CardDescription, CardFooter, CardHeader, CardRoot, CardTitle } from '@chakra-ui/react/card'
 import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -21,7 +25,7 @@ import { useState } from 'react';
 
 const projects = [
     {
-      title: "Cosmetic Store(Ongoing development)",
+      title: "Cosmetic Store",
       description:
         "An online cosmetic store for easy skincare and makeup shopping.",
       getImageSrc: image6,
@@ -40,18 +44,23 @@ const projects = [
       repoApi: 'https://github.com/justinmk21/Real-Estate-API.git',
     },
     {
-      title: "React Infinite Scroll",
+      title: "Chatbot",
       description:
-        "A scrollable bottom sheet with virtualization support, native animations\
-         at 60 FPS and fully implemented in JS land 🔥️",
-      getImageSrc: image2,
+        "Multi-LLM chatbot connecting OpenAI, Google Studio, and \
+        Hugging Face to generate text and images instantly 🔥",
+      getImageSrc: laptop,
+      link: "https://alexa-beryl.vercel.app/",
+      repoLink: "https://github.com/justinmk21/Alexa",
+      repoApi: "https://github.com/justinmk21/Alexa-Server",
     },
     {
-      title: "Event planner",
+      title: "Morent",
       description:
-        "A mobile application for leisure seekers to discover unique events and \
-        activities in their city with a few taps",
-      getImageSrc: image4,
+        "A smart car rental platform with AI-powered search and chatbot assistance.",
+        link: "https://morent-nu.vercel.app/",
+        repoLink: "https://github.com/justinmk21/Morent-Frontend",
+        repoApi: "https://github.com/justinmk21/Morent-Server",
+      getImageSrc: car,
     },
   ];
 
@@ -73,7 +82,7 @@ function Projects() {
               >
                 <h1
                   >
-                    Projects
+                    Featured Work
                 </h1>
                 <Box
                   className='project-items'
