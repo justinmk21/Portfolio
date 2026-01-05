@@ -8,7 +8,7 @@ import './ThemeColor.css'
 
 export function ColorModeProvider(props) {
   return (
-    <ThemeProvider attribute='class' disableTransitionOnChange {...props} />
+    <ThemeProvider attribute='class' disableTransitionOnChange {...props} forcedTheme='light'/>
   )
 }
 

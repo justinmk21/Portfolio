@@ -8,28 +8,33 @@ import {
     faMedium,
     faStackOverflow,
   } from "@fortawesome/free-brands-svg-icons";
-  import { Flex, HStack } from "@chakra-ui/react";
-  import { ColorModeButton } from "./components/ui/color-mode";
+import { Flex, HStack } from "@chakra-ui/react";
+import { ColorModeButton } from "./components/ui/color-mode";
 
   const socials = [
     {
       icon: faEnvelope,
-      url: "Kgomotso: kgomotsomkhawane2001@gmail.com",
+      label: "Email",
+      url: "mailto:kgomotsomkhawane2001@gmail.com",
     },
     {
       icon: faGithub,
+      label: "GitHub",
       url: "https://github.com/justinmk21",
     },
     {
       icon: faLinkedin,
-      url: "www.linkedin.com/in/kgomotso-mkhawane-4769bb219",
+      label: "LinkedIn",
+      url: "https://www.linkedin.com/in/kgomotso-mkhawane-4769bb219",
     },
     {
       icon: faMedium,
+      label: "Medium",
       url: "https://medium.com",
     },
     {
       icon: faStackOverflow,
+      label: ":Stack Overflow",
       url: "https://stackoverflow.com",
     },
   ];
@@ -46,29 +51,33 @@ function Header() {
                   className='nav-section'
                   >
                     <HStack>
-                    <a href={socials[0].url} style={{padding:'0px 10px'}} >
-                        <FontAwesomeIcon icon={socials[0].icon} size="2x" />
-                    </a>
-                    <a href={socials[1].url} style={{padding:'0px 10px'}} >
-                        <FontAwesomeIcon icon={socials[1].icon} size="2x" />
-                    </a>
-                    <div
-                      onClick={() => handleOpenLink(socials[2].url)}
-                      style={{padding:'0px 10px'}}
-                      >
-                      <FontAwesomeIcon icon={socials[2].icon} size="2x" />
-                    </div>
-                    <a href={socials[3].url} style={{padding:'0px 10px'}} >
-                        <FontAwesomeIcon icon={socials[3].icon} size="2x" />
-                    </a>
-                    <a href={socials[4].url} style={{padding:'0px 10px'}} >
-                        <FontAwesomeIcon icon={socials[4].icon} size="2x" />
-                    </a>
+
+                      <div
+                        onClick={() => handleOpenLink(socials[0].url)}
+                        style={{ padding:'0px 10px', cursor: 'pointer' }}
+                        >
+                        <FontAwesomeIcon icon={socials[0].icon} size='2x' />
+                      </div>
+                      
+                      <div
+                        onClick={() => handleOpenLink(socials[2].url)}
+                        style={{ padding:'0px 10px', cursor: 'pointer' }}
+                        >
+                        <FontAwesomeIcon icon={socials[2].icon} size="2x" />
+                      </div>
+
+                      <div
+                        onClick={() => handleOpenLink(socials[1].url)}
+                        style={{ padding:'0px 10px', cursor: 'pointer' }}
+                        >
+                        <FontAwesomeIcon icon={socials[1].icon} size='2x' />
+                      </div>
+
                     </HStack>
                 </nav>
                 <div
                   className='menu-icon'>
-                  <LuMenu size={46}/>
+                  <LuMenu size={46} />
                 </div>
 
                 <nav
@@ -76,9 +85,7 @@ function Header() {
                   >
                     <Flex
                       alignItems={'center'}
-
                       >
-                      <ColorModeButton/>
                       <div>
                         <a className="topmenu" href="#skills">Skills</a>
                         <a className="topmenu" href="#projects">Projects</a>

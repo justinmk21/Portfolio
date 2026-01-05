@@ -27,22 +27,16 @@ function WorkProcess() {
                         <h1>What I Do</h1>
                     </div>
                     <Text color={'#87909D'}>
-                        As a full-stack developer with a passion for both design
-                        and functionality, I specialize in creating intuitive,
-                        user-centered web applications. I bridge the gap between
-                        frontend and backend development to ensure that each project
-                        not only looks great but also performs efficiently.
+                        I develop modern web applications that focus on usability, 
+                        performance, and clean visual design. My goal is to create 
+                        digital experiences that are both functional and enjoyable to use.
                     </Text>
                     <br></br>
                     <hr></hr>
                     <br></br>
                     <Text color={'#87909D'}>
-                        I am experienced in using frameworks such as React for
-                        frontend development and Django, Flask, or Node.js for
-                        backend architecture. From developing RESTful APIs and
-                        implementing user authentication to integrating third-party
-                        services and deploying applications, I take a holistic
-                        approach to web development.
+                        From frontend interfaces to backend logic, I use modern tools 
+                        and frameworks to deliver fast, reliable web applications.
                     </Text>
                     <Button
                         style={{ margin: '30px 0' }}
@@ -69,14 +63,14 @@ function WorkProcess() {
                             <Text
                                 className="heading"
                                 >
-                                User Experience And User interface
+                                AI Software Development
                             </Text>
                             <Text
                                 color={'#87909D'}
                                 >
-                                I design user interfaces and experiences that are
-                                functional and visually engaging, ensuring intuitive
-                                interaction with products.
+                                I develop intelligent software solutions that use 
+                                artificial intelligence to automate processes, analyze 
+                                data, and enhance application functionality.
                             </Text>
                         </Box>
                         <Box
@@ -86,9 +80,9 @@ function WorkProcess() {
                             >
                             <Text className="heading">Frontend Development</Text>
                             <Text color={'#87909D'}>
-                                I build responsive, dynamic web applications
-                                using modern frontend technologies like React,
-                                Chakra ui and Bootstrap.
+                                I build responsive, data-driven interfaces for 
+                                AI-powered applications using modern frontend 
+                                technologies like React, Chakra UI, and Bootstrap.
                             </Text>
                         </Box>
                         <Box
@@ -98,11 +92,9 @@ function WorkProcess() {
                             >
                             <Text className="heading">Backend Development</Text>
                             <Text color={'#87909D'}>
-                                My backend development expertise involves
-                                designing and maintaining robust server-side
-                                logic, ensuring the seamless integration of
-                                front and back-end systems using technologies
-                                like Node.js, Express, and Django.
+                                I design and maintain backend systems, integrating 
+                                APIs, AI models and server-side logic technologies 
+                                like Node.js, Express, Django, and Python.
                             </Text>
                         </Box>
                     </Flex>

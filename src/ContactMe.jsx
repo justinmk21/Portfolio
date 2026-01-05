@@ -31,7 +31,7 @@ function ContactMe() {
                         </Text>
                     </Box>
                     <Box >
-                        <Card.Root maxWidth={'330px'} marginTop={'30px'}>
+                        <Card.Root width={'330px'} marginTop={'30px'} padding={'0 12px'}>
                             <Card.Body className="card-body">
                                 <div className="contact-card">
                                     <FaMapMarkerAlt/>
@@ -42,7 +42,7 @@ function ContactMe() {
                                 </div>
                             </Card.Body>
                         </Card.Root>
-                        <Card.Root maxWidth={'330px'} marginTop={'30px'} >
+                        <Card.Root width={'330px'} marginTop={'30px'} padding={'0 12px'} >
                             <Card.Body className="card-body">
                                 <div className="contact-card">
                                     <FaEnvelope/>
@@ -55,7 +55,7 @@ function ContactMe() {
                                 </div>
                             </Card.Body>
                         </Card.Root>
-                        <Card.Root maxWidth={'330px'} marginTop={'30px'} >
+                        <Card.Root width={'330px'} marginTop={'30px'} padding={'0 12px'} >
                             <Card.Body className="card-body">
                                 <div className="contact-card">
                                     <FaPhoneAlt/>

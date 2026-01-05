@@ -13,18 +13,19 @@ function LandingPage() {
     >
       <article className="col d-flex flex-column justify-content-center mb-5 mb-lg-0 text-center text-lg-start">
         <Text
-          fontSize={{ base: 'lg', md: 'xl' }}
+          fontSize={{ base: 'lg', md: 'xl',lg: '24px' }}
           fontWeight="semibold"
           mb={2}
-          color="#gray"
+          color="#4e525a"
         >
-          Hi, I'm Kgomotso
+          Hi, I am Kgomotso, a
         </Text>
 
         <Stack spacing={0} mb={2}>
           <Heading
             as="h1"
             fontSize={{ base: '3xl', md: '5xl', lg: '6xl' }}
+            fontWeight={'bolder'}
             color="#7B61FF"
           >
             Software
@@ -32,6 +33,7 @@ function LandingPage() {
           <Heading
             as="h1"
             fontSize={{ base: '3xl', md: '5xl', lg: '6xl' }}
+            fontWeight={'bolder'}
             color="#64B5FF"
           >
             Developer
@@ -39,20 +41,21 @@ function LandingPage() {
         </Stack>
 
         <Text
-          fontSize={{ base: 'md', md: 'lg' }}
-          color="eee"
-          maxW={{ base: '100%', md: '500px' }}
+            font={'revert-layer'}
+            fontSize={{ base: 'md', md: 'lg' }}
+            color="4e525a"
+            maxW={{ base: '100%', md: '500px' }}
         >
-          I'm a developer based in Johannesburg, South Africa. I help build
-          beautiful websites your users will love.
+          I'm a Johannesburg-based developer from South Africa, focused on 
+          creating visually stunning websites your audience will enjoy.
         </Text>
       </article>
 
       <article className="col d-flex justify-content-center justify-content-lg-end mt-5 mt-lg-0">
         <Box
-        className='border-line'
+          className='border-line'
           borderRadius="full"
-          p={2}
+          p={2.5}
           _hover={{ transform: 'scale(1.05)', transition: '0.3s' }}
         >
           <Image
