@@ -1,0 +1,54 @@
+:root {
+  /* --- Colors --- */
+  --bg-color: #050505;
+  --surface-color: #121212;
+  --surface-hover: #1e1e1e;
+  
+  --text-primary: #ededed;
+  --text-secondary: #a1a1a1;
+  --text-muted: #525252;
+  
+  --accent-primary: #6d28d9;  /* Electric Violet */
+  --accent-secondary: #06b6d4; /* Cyan */
+  --accent-glow: rgba(109, 40, 217, 0.5);
+  
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-light: rgba(255, 255, 255, 0.15);
+
+  /* --- Fonts --- */
+  --font-display: 'Clash Display', sans-serif;
+  --font-serif: 'Playfair Display', serif; /* New for V2 */
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  /* --- Spacing --- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+  --space-32: 128px;
+  
+  /* --- Radius --- */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px; /* Pill */
+  
+  /* --- Transitions --- */
+  --transition-fast: 0.2s cubic-bezier(0.2, 0, 0.2, 1);
+  --transition-smooth: 0.4s cubic-bezier(0.2, 0, 0.2, 1);
+  
+  /* --- Z-Index --- */
+  --z-back: -1;
+  --z-canvas: 0;
+  --z-base: 1;
+  --z-sticky: 100;
+  --z-overlay: 900;
+  --z-modal: 1000;
+  --z-cursor: 9999;
+}
