@@ -11,6 +11,7 @@ import computer from './images/computer.jpg';
 import tech from './images/tech.jpg';
 import laptop from './images/Laptop.jpg';
 import car from './images/car.jpg';
+import karola from './assets/karola.jpg'
 import { CardBody, CardDescription, CardFooter, CardHeader, CardRoot, CardTitle } from '@chakra-ui/react/card'
 import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,6 +25,15 @@ import Cards from './Card';
 import { useState } from 'react';
 
 const projects = [
+  {
+      title: "Justin 'n Beats",
+      description:
+        "An e-commerce platform for music lovers to buy and sell music.",
+        link: "https://justinn-beats-kb3hprz4b-kgomotsos-projects-70a9ec9b.vercel.app/",
+        repoLink: "https://github.com/justinmk21/JustinnBeats",
+        repoApi: "",
+      getImageSrc: karola,
+    },
     {
       title: "Cosmetic Store",
       description:
@@ -32,16 +42,6 @@ const projects = [
       link: 'https://justinmk21.github.io/Lenature/',
       repoLink: 'https://github.com/justinmk21/Lenature.git',
       repoApi: '',
-    },
-    {
-      title: "Real Estate App",
-      description:
-        "A modern and intuitive web application designed for seamless property \
-        management and exploration.",
-      getImageSrc: image5,
-      link: 'https://justinmk21.github.io/NolaEstates/',
-      repoLink: 'https://github.com/justinmk21/NolaEstates.git',
-      repoApi: 'https://github.com/justinmk21/Real-Estate-API.git',
     },
     {
       title: "Chatbot",
@@ -61,6 +61,16 @@ const projects = [
         repoLink: "https://github.com/justinmk21/Morent-Frontend",
         repoApi: "https://github.com/justinmk21/Morent-Server",
       getImageSrc: car,
+    },
+    {
+      title: "Real Estate App",
+      description:
+        "A modern and intuitive web application designed for seamless property \
+        management and exploration.",
+      getImageSrc: image5,
+      link: 'https://justinmk21.github.io/NolaEstates/',
+      repoLink: 'https://github.com/justinmk21/NolaEstates.git',
+      repoApi: 'https://github.com/justinmk21/Real-Estate-API.git',
     },
   ];
 
