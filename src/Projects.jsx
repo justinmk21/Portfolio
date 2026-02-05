@@ -39,7 +39,7 @@ const projects = [
       description:
         "An online cosmetic store for easy skincare and makeup shopping.",
       getImageSrc: image6,
-      link: 'https://justinmk21.github.io/Lenature/',
+      link: 'http://34.71.229.132/Lenature',
       repoLink: 'https://github.com/justinmk21/Lenature.git',
       repoApi: '',
     },
